@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+body {
+  background-image: url(./skyline-downtown-new-york-new-york-usa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: darkblue;
+ 
+}
+
+.inp {
+  opacity: 0.5;
+  border: 0;
+  font-size: 18px;
+  border-radius: 5px;
+  box-shadow: black 5px 5px ;
+
+}
+
+
+.inp:focus{
+    opacity: 1px;
+}
+
+#tr {
+  font-size: 14px;
+  background-color:gold;
+  border-radius: 5px;
+}
+
+.titletext {
+  font-size: 48px;
+}
+
+#cont{
+    min-height: 90vh;
+}
+
+#buton-add{
+    box-shadow: black 5px 5px ;
+
+}
+
+img{
+    width:100px;
+    height:100px;
+}
+
+.image{
+    background-color: rgb(41, 47, 92);
+
+}
