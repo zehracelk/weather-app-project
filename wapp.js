@@ -1,7 +1,7 @@
 
 const myKey = "2c7f5b6ceb2b32ce6c9c05736d8b0f02";
 
-localStorage.setItem("my", JSON.stringify("myKey"));
+localStorage.setItem("my", JSON.stringify(myKey));
 
 
  const url = "https://api.openweathermap.org/data/2.5/";
