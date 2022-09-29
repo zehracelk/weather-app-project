@@ -29,7 +29,7 @@ const getResult = (cityName) => {
     })
     .then(dispResult)
 
-    .catch((err) => console.log(err));
+    .catch(() => alert("Yanlış giriş yaptınız."));
   console.log(query);
   console.log(key);
 
